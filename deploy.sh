@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# abort on errors
+# abort on errorsa
 set -e
 
 # build
@@ -10,7 +10,7 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domain
-echo 'www.antojitoskarina.com' > CNAME
+echo 'antojitoskarina.com' > CNAME
 
 git init
 git add -A
